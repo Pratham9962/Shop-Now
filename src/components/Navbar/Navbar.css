@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.searchBox {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 500px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.cart{
+  text-decoration: none;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.cartIcon {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.cartItemCount {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
