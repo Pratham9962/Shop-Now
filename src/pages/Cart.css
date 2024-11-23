@@ -3,196 +3,280 @@ h2,
 h3,
 p,
 button {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
 .card {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
-  border-radius: 6px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  background-color: #fff;
-  border: none;
-  width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: none;
+    width: 100%;
 }
 
 .card-header {
-  background: #333;
-  padding: 12px 16px;
+    background: #333;
+    padding: 12px 16px;
 }
 
 .card-header-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px;
 }
 
 .card-header-flex p {
-  color: white;
-  font-size: 25px;
+    color: white;
+    font-size: 25px;
 }
 
 .btn-danger {
-  background-color: #ff5b5c;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 15px;
-  padding: 5px 10px;
-  border-radius: 5px;
+    background-color: #ff5b5c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .card-body {
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 0;
-  font-size: 20px;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
 }
 
 .table th {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 15px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 0px;
 }
 
 .table th .amount {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .table th,
 .table td {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 .table tbody tr td {
-  padding: 15px 0px;
-  padding-top: 10px;
-  text-align: center;
+    padding: 15px 0px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .table thead tr {
-  box-shadow: 0 1px 0px #bdb4b4
+    box-shadow: 0 1px 0px #bdb4b4;
 }
 
 .table tbody tr {
-  box-shadow: 0.7px 1px 2px rgba(231, 231, 229, 0.618);
+    box-shadow: 0.7px 1px 2px rgba(231, 231, 229, 0.618);
 }
 
 .prdct-delete {
-  width: 45px;
-  height: 45px;
-  border: none;
-  border-radius: 4px;
-  background-color: #fde6e7;
-  color: #ff5b5c;
-  font-size: 20px;
-  transition: 0.3s;
-  cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fde6e7;
+    color: #ff5b5c;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .prdct-delete:hover {
-  background-color: #ff5b5c;
-  color: #fff;
+    background-color: #ff5b5c;
+    color: #fff;
 }
 
 .product-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: block;
-  margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
 }
 
 .product-img img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .product-name p {
-  color: #000;
+    color: #000;
 }
 
 .prdct-qty-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prdct-qty-btn {
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 4px;
-  background-color: #5a8dee2e;
-  color: #5a8dee;
-  font-size: 11px;
-  transition: 0.3s;
-  cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5a8dee2e;
+    color: #5a8dee;
+    font-size: 11px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .prdct-qty-btn:hover {
-  background-color: #5a8dee;
-  color: #fff;
+    background-color: #5a8dee;
+    color: #fff;
 }
 
 .qty-input-box {
-  max-width: 70px;
-  padding: 0px 5px;
-  min-height: 40px;
-  border-radius: 4px;
-  text-align: center;
-  display: inline-block;
-  margin: 0px 5px;
-  color: #475f7b;
-  background-color: #fff;
-  border: 1px solid #dfe3e7;
-  transition: 0.3s;
+    max-width: 70px;
+    padding: 0px 5px;
+    min-height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+    color: #475f7b;
+    background-color: #fff;
+    border: 1px solid #dfe3e7;
+    transition: 0.3s;
 }
 
 .qty-input-box:focus {
-  color: #475f7b;
-  background-color: #fff;
-  border-color: #5a8dee;
-  outline: 0;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    color: #475f7b;
+    background-color: #fff;
+    border-color: #5a8dee;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cart-empty {
-  text-align: center;
-  padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .cart-empty i {
-  font-size: 45px;
-  color: #d5d6d8;
-  margin-bottom: 10px;
-  display: inline-block;
+    font-size: 45px;
+    color: #d5d6d8;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .cart-empty p {
-  margin-bottom: 0;
-  color: #bdbdbd;
-  font-size: 16px;
+    margin-bottom: 0;
+    color: #bdbdbd;
+    font-size: 16px;
 }
 
+
 @media (max-width: 768px) {
-  .container {
-    width: 90%;
-  }
+        .container {
+        padding: 1rem;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card-header-flex p {
+        font-size: 20px;
+    }
+
+        .table thead {
+        display: none; 
+    }
+
+    .table tbody tr {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .table tbody tr td {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        place-items: center;
+        padding: 5px 0;
+        margin-left: -50px;
+        margin-right: -10px;
+    }
+
+    .table tbody tr td::before {
+        content: attr(data-label);
+        font-weight: bold;
+    }
+
+    .product-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .prdct-qty-container {
+        justify-content: flex-end;
+    }
+
+    .prdct-qty-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .qty-input-box {
+        max-width: 50px;
+        min-height: 36px;
+    }
+
+    .table tfoot tr {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        text-align: right;
+    }
+
+    .table tfoot tr th {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .card-header-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .table tbody tr td {
+        font-size: 16px;
+    }
 }
